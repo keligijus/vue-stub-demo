@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+# yarn is a new/faster npm
+yarn.lock
+/selenium-debug.log
+test/e2e/reports/
+test/unit/coverage/lcov-report/
+/test/unit/coverage/lcov-report/index.html
