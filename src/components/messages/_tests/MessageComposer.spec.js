@@ -153,7 +153,7 @@ It seems that is is, but neither callCount nor called are registered`)
         const wrapper = mount(MessageComposer, { propsData, store })
         expect(wrapper.data().msg).to.equal('')
       })
-      it.skip('focuses on composer *issue on Github*', () => {
+      it('focuses on composer *issue on Github*', () => {
         // NOTE: Github issue opened regarding stubbing/spying methods of premounted component
         const spy = sinon.spy(MessageComposer.methods, 'focusOnComposer')
         mount(MessageComposer, { propsData, store, attachToDocument: true })
